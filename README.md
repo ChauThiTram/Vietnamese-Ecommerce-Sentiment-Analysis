@@ -14,7 +14,9 @@ Dự án xây dựng mô hình phân loại cảm xúc bình luận cho các sà
     * Sinh dữ liệu nhân tạo (Synthetic Data Generation) với Gemini API.
 
 ## Kết quả (Performance)
-* **Accuracy:** ~78% (trên tập test).
+* **Accuracy:** trên tập dữ liệu kiểm thử
+   * Dữ liệu gốc: 77.63%.
+   * Dữ liệu gốc + giả lập (synthetic data): 78.87%.
 * Có tích hợp module đánh giá sai số (Error Analysis) tự động.
 
 ## Dữ liệu
